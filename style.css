@@ -1,1 +1,76 @@
-/*Personal Web Page Style Sheet */
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+body {
+  background-color: #314575;
+  font-family: helvetica, "Times New Roman", serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+}
+
+nav {
+  text-align: center;
+}
+
+nav, main, p { padding: 0 1em;}
+nav {flex: 5;}
+main {flex: 4;}
+p {flex: 1;}
+
+title {
+  text-align: center;
+}
+
+h1 {
+  font-family:helvetica, "Times New Roman", serif;
+  font-size: 45px;
+  text-align: center;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+
+h2 {
+  font-family: helvetica, "Times New Roman", serif;
+  font-size: 36px;
+  text-align: center;
+}
+
+h3 {
+  font-family: helvetica, "Times New Roman", serif;
+  font-size: 28px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+
+#wrapper{
+  background-color: #f8fffb;
+  max-width: 960px;
+  min-width: 700px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  padding-left: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px, ridge, #0d4038;
+  border-radius: 25px;
+  box-shadow: inset -3px -3px 3px 3px #00332B;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrapper {
+  display: flex;
+}
